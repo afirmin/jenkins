@@ -1,0 +1,30 @@
+pipeline{
+    agent any
+    stages {
+        stage("First stage") {
+            steps {
+                echo "hello world"
+            }
+        }
+        stage("Second stage") {
+            steps {
+                echo "Oreo is a lovely cat but has sharp claws"
+            }
+        }
+        stage("Third stage") {
+            steps {
+                echo "Boston is more than just a feeling"
+            }
+        }
+        stage("Fourth stage") {
+            steps {
+                echo "May the fork be with you!"
+            }
+        }
+        stage("Fifth stage") {
+            steps {
+                echo "The firth of fifth"
+            }
+        }
+    }
+}
